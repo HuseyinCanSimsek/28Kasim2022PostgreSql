@@ -35,6 +35,17 @@ on c.country_id=a.country_id
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/left%20join.png" width=40% height=40%>
   </p>
   
+   ## FULL OUTER JOIN
+```
+select * from products p
+full outer join suppliers s
+on p.supplierid=s.supplierid
+
+```
+<h2>Kod Çıktısı</h2>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/full%20outer.png" width=40% height=40%>
+  </p>
+  
   ## IN
 
 ``select ct.name as "Kent",a.street from cities ct 
