@@ -40,11 +40,14 @@ having p.stock > 30``
   </p>
  
 <h2>Between </h2>
-``select p.stock as "Ürün Stoğu",s.name as "Tedarikçi adı" from products p
+``
+select p.stock as "Ürün Stoğu",s.name as "Tedarikçi adı" from products p
 inner join suppliers s
 on p.supplierid=s.supplierid
 group by p.stock,s.name
-having p.stock between 30 and 100``
+having p.stock between 30 and 100
+
+``
 
 <h2>Kod Çıktısı</h2>
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/between.png" width=30% height=30%>
