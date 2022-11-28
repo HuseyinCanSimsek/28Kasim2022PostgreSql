@@ -15,6 +15,26 @@ where p.name = 'Cola'
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/inner%20join.png" width=40% height=40%>
   </p>
   
+  ## RIGHT JOIN
+```
+select c.name,a.city_id from cities c
+right join adresses a
+on c.city_id=a.city_id
+```
+<h2>Kod Çıktısı</h2>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/right%20join.png" width=40% height=40%>
+  </p>
+  
+   ## LEFT JOIN
+```
+select * from countries c
+left join adresses a
+on c.country_id=a.country_id
+```
+<h2>Kod Çıktısı</h2>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/left%20join.png" width=40% height=40%>
+  </p>
+  
   ## IN
 
 ``select ct.name as "Kent",a.street from cities ct 
