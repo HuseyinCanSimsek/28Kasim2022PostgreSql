@@ -14,7 +14,7 @@ where p.name = 'Cola'
 <h2>Kod Çıktısı</h2>
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/inner%20join.png" width=40% height=40%>
   </p>
-# IN
+<h2>IN</h2>
 
 ``
 select ct.name as "Kent",a.street from cities ct 
