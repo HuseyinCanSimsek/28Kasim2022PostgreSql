@@ -36,4 +36,7 @@ on pc.category_id=c.category_id
 group by p.stock,c.name
 having p.stock > 30
 ``
+<h2>Kod Çıktısı</h2>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/Having.png" width=40% height=40%>
+  </p>
 
