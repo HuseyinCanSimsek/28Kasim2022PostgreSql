@@ -11,4 +11,5 @@ inner join categories c
 on pc.category_id=c.category_id
 where p.name = 'Cola'
 ```
+<h2>Kod Çıktısı</h2>
 
