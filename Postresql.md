@@ -12,7 +12,7 @@ on pc.category_id=c.category_id
 where p.name = 'Cola'
 ```
 <h2>Kod Çıktısı</h2>
-<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/inner%20join.png" width=40% height=40%>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/inner%20join.png" width=50% height=50%>
   </p>
   
   ## RIGHT JOIN
@@ -22,7 +22,7 @@ right join adresses a
 on c.city_id=a.city_id
 ```
 <h2>Kod Çıktısı</h2>
-<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/right%20join.png" width=40% height=40%>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/right%20join.png" width=50% height=50%>
   </p>
   
    ## LEFT JOIN
@@ -32,7 +32,7 @@ left join adresses a
 on c.country_id=a.country_id
 ```
 <h2>Kod Çıktısı</h2>
-<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/left%20join.png" width=40% height=40%>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/left%20join.png" width=50% height=50%>
   </p>
   
    ## FULL OUTER JOIN
@@ -43,7 +43,7 @@ on p.supplierid=s.supplierid
 
 ```
 <h2>Kod Çıktısı</h2>
-<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/full%20outer.png" width=40% height=40%>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/full%20outer.png" width=50% height=50%>
   </p>
   
   ## IN
