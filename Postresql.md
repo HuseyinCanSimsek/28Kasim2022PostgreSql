@@ -27,7 +27,8 @@ where a.street not in('cadde1')
 
 <h2>Group By And Having </h2>
 ``
-select p.stock as "Ürün Stoğu",c.name as "Kategori adı" from products p
+select p.stock as "Ürün Stoğu",c.name as "Kategori adı" 
+from products p
 inner join products_categories pc
 on p.product_id=pc.product_id
 inner join categories c
@@ -41,7 +42,8 @@ having p.stock > 30
   </p>
  
 <h2>Between </h2>
-`select p.stock as "Ürün Stoğu",s.name as "Tedarikçi adı" from products p
+`select p.stock as "Ürün Stoğu",s.name as "Tedarikçi adı" 
+from products p
 inner join suppliers s
 on p.supplierid=s.supplierid
 group by p.stock,s.name
