@@ -21,6 +21,7 @@ inner join adresses a
 on ct.city_id=a.city_id
 where a.street not in('cadde1')
 ```
+<h2>Kod Çıktısı</h2>
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/in.png" width=40% height=40%>
   </p>
 
