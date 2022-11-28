@@ -12,5 +12,6 @@ on pc.category_id=c.category_id
 where p.name = 'Cola'
 ```
 <h2>Kod Çıktısı</h2>
-![]{https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/inner%20join.png}
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/inner%20join.png" width=40% height=40%>
+  </p>
 
