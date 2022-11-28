@@ -26,7 +26,7 @@ where a.street not in('cadde1')
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/in.png" width=40% height=40%>
   </p>
 
-<h2>Group by and Having </h2>
+<h2>Group By And Having </h2>
 ``
 select p.stock as "Ürün Stoğu",c.name as "Kategori adı" from products p
 inner join products_categories pc
@@ -35,10 +35,23 @@ inner join categories c
 on pc.category_id=c.category_id
 group by p.stock,c.name
 having p.stock > 30
+
 ``
 
 
 <h2>Kod Çıktısı</h2>
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/Having.png" width=40% height=40%>
   </p>
+ 
+<h2>Between </h2>
+``
+select p.stock as "Ürün Stoğu",s.name as "Tedarikçi adı" from products p
+inner join suppliers s
+on p.supplierid=s.supplierid
+group by p.stock,s.name
+having p.stock between 30 and 100
 
+``
+<h2>Kod Çıktısı</h2>
+<img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/between.png" width=40% height=40%>
+  </p>
