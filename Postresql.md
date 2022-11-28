@@ -36,7 +36,6 @@ group by p.stock,c.name
 having p.stock > 30
 ``
 
-
 <h2>Kod Çıktısı</h2>
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/Having.png" width=30% height=30%>
   </p>
