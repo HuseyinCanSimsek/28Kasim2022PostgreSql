@@ -49,8 +49,8 @@ inner join suppliers s
 on p.supplierid=s.supplierid
 group by p.stock,s.name
 having p.stock between 30 and 100
-
 ```
+
 <h2>Kod Çıktısı</h2>
 <img src="https://github.com/HuseyinCanSimsek/28Kasim2022PostgreSql/blob/main/Outputs/between.png" width=30% height=30%>
   </p>
