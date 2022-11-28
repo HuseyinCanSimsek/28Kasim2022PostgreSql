@@ -1,5 +1,5 @@
 # 28Kasim2022PostgreSql
-**28 Kasım 2022 Postresql Ödevi
+** 28 Kasım 2022 Postresql Ödevi
 ## INNER JOIN
 ```
 select p.name as "Ürün adı",c.name as "Kategori adı",s.name as "Tedarikçi adı" from suppliers s
